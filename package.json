@@ -1,0 +1,20 @@
+{
+  "name": "caixa-do-veio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite-plugin-vuetify": "^2.0.4",
+    "vue": "^3.5.12",
+    "vuetify": "^3.7.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "vite": "^5.4.9"
+  }
+}
