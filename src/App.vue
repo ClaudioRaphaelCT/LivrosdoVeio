@@ -1,6 +1,6 @@
 <template>
   <div class="text-center">
-    <v-card-title primary-title class="mb-5"> LIVROS DR MENELAU</v-card-title>
+    <v-card-title primary-title class="mb-5 custom-title"> LIVROS DR MENELAU</v-card-title>
     <h3 class="mb-3">Buscar por nome do livro</h3>
     <v-text-field
       name="Pesquisa"
@@ -166,5 +166,10 @@ export default {
 }
 .titulo {
   text-align: center;
+}
+.custom-title {
+  background-color: black; /* Fundo preto */
+  color: white; /* Texto branco */
+  padding: 16px; /* Ajuste o padding se necessário */
 }
 </style>
